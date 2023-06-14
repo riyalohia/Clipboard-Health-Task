@@ -18,21 +18,21 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Your Breakdown Here
 
 - ### Ticket 1: Update agent table with respective factory_agent_id
-  Description: Add a column of factory_agent_id in the agent table, it should be unique and have a many to 1 relation between agent and factory. Updates are required to be made on the agent model and migrations if using a relational db
+  Description: Add a column of factory_agent_id in the agent table, it should be unique and have a many to 1 relation between agent and factory. Updates are required to be made on the agent model and migrations if using a relational db. <br/>
   Points: 2
 
 - ### Ticket 2: Create function saveFactoryAgentId
-  Description: This function is supposed to save custom factory id for each agents. It can be created in multiple ways, a versatile option would be a function that takes in factory_id, array of agent ids and a regex or another function that dictates the logic on how to form the unique id for each agent.
+  Description: This function is supposed to save custom factory id for each agents. It can be created in multiple ways, a versatile option would be a function that takes in factory_id, array of agent ids and a regex or another function that dictates the logic on how to form the unique id for each agent. <br/>
   Points: 3
 
 - ### Ticket 3: Update shiftsByFacility function to include the factory_agent_id in the agent metadata
-  Description: Update the existing function logic to include the newly created factory_agent_id in the agent meta data
+  Description: Update the existing function logic to include the newly created factory_agent_id in the agent meta data. <br/>
   Points: 1/3 depending on the complexity of the function to summarise agent metadata formatting
 
 - ### Ticket 4: Update generateReports function to show factory_agent_id instead of internal agent id
-  Description: Update the generateReports function to replace all the places in logic where the internal database id for each agent with the factory_agent_id created for each.
+  Description: Update the generateReports function to replace all the places in logic where the internal database id for each agent with the factory_agent_id created for each. <br/>
   Points: 2/5 depending on the complexity of the function
 
 - ### Ticket 5: (Optional) Update exisiting agent records with factory_agent_id
-  Description: Once the tables and functions are updated, and factory_agent_id will be required field for all the functions to run properly, all the existing records are required to be updated with respective factory_agent_id using a one time functions
+  Description: Once the tables and functions are updated, and factory_agent_id will be required field for all the functions to run properly, all the existing records are required to be updated with respective factory_agent_id using a one time functions. <br/>
   Points: 2
